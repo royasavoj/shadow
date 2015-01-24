@@ -13,12 +13,22 @@
 </head>
 <body>
 	<h1>shadow</h1>
-	<p>Test text</p>
+	<ul></ul>
+	<input></input>
 	<script>
 	$("h1").click(function(){
 	alert("hi roya");
 	
 	});	
+
+	$("input").keydown(function(event){ 
+		if (event.keyCode === 13){
+			var input = $("input").val();
+			console.log(input);
+			$("ul").append("<li>"+input+"</li>");
+		}
+	});
+	
 	</script>
 </body>
 </html>
