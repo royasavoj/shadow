@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/royasavoj/shadow/issues"
   },
-  "homepage": "https://github.com/royasavoj/shadow"
+  "homepage": "https://github.com/royasavoj/shadow",
+  "dependencies": {
+    "express": "^4.10.5"
+  }
 }
