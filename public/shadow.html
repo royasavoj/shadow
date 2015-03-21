@@ -45,10 +45,27 @@
 		if (event.keyCode === 13){
 			var input = $("input").val();
 			console.log(input);
-			$("ul").append("<li>"+input+"</li>");
+			$("ul").append("<li><span>"+input+"</span><button class = 'one btn btn-xs btn-danger'>delete" +"</button>" + "<button class ='two btn btn-xs btn-info'>edit" + "</button>"+"</li>" );
+			$("button").off("click");
+			$("button.one").click(function(event){
+				console.log(event);
+				event.target.parentElement.remove();
+		
+			});
+			$("button.two").click(function(event){
+				console.log(event);
+				var input = $("input").val();
+				//$("span").text(input);
+				//console.log(event.target.parentElement.html(input));
+				$(event.target).parent().children('span').html(input);
+			});
 		}
+
 	});
-	
+	$("button").click(function(event){
+	console.log(event);
+
+	})
 	</script>
 </body>
 </html>

@@ -18,7 +18,15 @@ li {
 	background-color: white;
 	margin-left: 0;
     padding-left: 0;
+    border-top :3px solid pink;
+    border-bottom: 3px solid white;
 }
+button {
+	float:right;
+
+
+}
+
 input {width:90%;
 
 
