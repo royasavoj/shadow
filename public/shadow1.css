@@ -1,24 +1,23 @@
 h1 {     
-	color: #439989;
+	color: #ffff01;
 	font-family: 'Sigmar One', cursive;
-	font-size: 79px;
+	font-size: 100px;
 }
-
 body {
-	background-color:#fc7899;
+	background-color: #ffe692;
 }
 ul {width:90%;
 	list-style-type: none;
-	margin-left: 0;
+	margin-left: 0
     padding-left: 0;
 }
 li {
-	font-family:'Poiret One', cursive;
-	color:purple;
+	font-family:'Poiret One', bold;
+	color:#1d9c46;
 	background-color: white;
 	margin-left: 0;
     padding-left: 0;
-    border-top :3px solid pink;
+    border-top :3px solid #ffd246;
     border-bottom: 3px solid white;
 }
 button {
@@ -32,11 +31,10 @@ input {width:90%;
 
 }
 #box_img{
-	background-color: #785595;
-	padding: 0px;
-
+	background-color: #ffd246;
+	padding: 5px;
 }
 #shadow_comments{
-	background-color: #f1c1cf;
+	background-color: #ffd246;
 	padding: 20px;
 }

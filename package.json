@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/royasavoj/shadow",
   "dependencies": {
-    "express": "^4.10.5"
+    "express": "^4.10.5",
+    "pg": "^4.3.0"
   }
 }
